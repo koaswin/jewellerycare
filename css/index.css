@@ -1,0 +1,2032 @@
+.container {
+    height: 615px;
+    width: 100%;
+    background-color: rgb(247, 245, 234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 52px;
+}
+
+.container .wrapper {
+    height: 100%;
+    width: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+}
+
+.container .wrapper .left-banner {
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(251, 0, 255); */
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.container .wrapper .left-banner .sub-container {
+    height: 80%;
+    width: 90%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.container .wrapper .left-banner .sub-container h1 {
+    font-family: maghelia;
+    font-size: 64px;
+    color: rgb(1, 1, 70);
+    line-height: 1;
+}
+
+.container .wrapper .left-banner .sub-container .sub-para {
+    height: 40%;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container .wrapper .left-banner .sub-container .sub-para p {
+    font-size: 24px;
+    color: rgb(1, 1, 70);
+    line-height: 1;
+}
+
+.container .wrapper .right-banner {
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(251, 0, 255); */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.container .wrapper .right-banner .sub-container {
+    height: 90%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    gap: 20px;
+
+}
+
+.container .wrapper .right-banner .sub-container .img-one {
+    height: 80%;
+    width: 50%;
+    background-color: blueviolet;
+    justify-self: start;
+    align-self: flex-end;
+    box-shadow: 10px 4px 10.3px gray;
+    border-radius: 111px 111px 30px 30px;
+}
+
+.container .wrapper .right-banner .sub-container .img-one img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 111px 111px 30px 30px;
+}
+
+.container .wrapper .right-banner .sub-container .img-two {
+    height: 80%;
+    width: 50%;
+    background-color: rgb(226, 116, 43);
+    box-shadow: 10px 4px 10.3px gray;
+    border-radius: 30px 30px 111px 111px;
+}
+
+.container .wrapper .right-banner .sub-container .img-two img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px 30px 111px 111px;
+}
+
+.container-two {
+    height: 246px;
+    width: 100%;
+    /* background-color: lightcoral; */
+    margin-bottom: 52px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-two .wrapper {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+
+.container-two .wrapper .card {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(234, 228, 205);
+    margin-right: 10px;
+    border-radius: 24px;
+
+    box-shadow: 3px 5px 5px rgb(197, 197, 197);
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-two .wrapper .card img {
+    height: 36%;
+}
+
+.container-two .wrapper .card p {
+    /* height: 40%; */
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(5, 5, 49);
+}
+
+.container-three {
+    height: 340px;
+    width: 100%;
+    /* background-color: lightcoral; */
+    margin-bottom: 52px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-three .wrapper {
+    height: 100%;
+    width: 90%;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+
+.container-three .wrapper h1 {
+    height: 15%;
+    width: 100%;
+    font-size: 48px;
+    color: rgb(4, 4, 64);
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+
+.container-three .wrapper .card-container {
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-three .wrapper .card {
+    height: 80%;
+    width: 24%;
+    margin-right: 10px;
+    border-radius: 24px;
+    /* background-color: brown; */
+}
+
+.container-three .wrapper .card img {
+    object-fit: cover;
+    height: 90%;
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 3px 5px 5px rgb(197, 197, 197);
+}
+
+.container-three .wrapper .card .card-sub-heading {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+
+.container-three .wrapper .card .card-sub-heading :nth-child(1) {
+    font-weight: 800;
+}
+
+.container-four {
+    height: 392px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 52px;
+}
+
+.container-four .wrapper {
+    height: 100%;
+    width: 85%;
+    /* background-color: lightcoral; */
+}
+
+.container-four .wrapper h1 {
+    height: 20%;
+    width: 100%;
+    font-size: 48px;
+    color: rgb(4, 4, 64);
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+
+.container-four .wrapper .card-container {
+    height: 80%;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-four .wrapper .card-container .card:nth-child(1) {
+    height: 95%;
+    width: 48%;
+    background-color: rgb(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 33px;
+    background-image: url('../image/index/hallmark-jewellery.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-four .wrapper .card-container .card .heading {
+    height: 30%;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 18px;
+    position: relative;
+}
+
+.container-four .wrapper .card-container .card .heading h1 {
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    top: 25%;
+    font-weight: 500;
+}
+
+.container-four .wrapper .card-container .card:nth-child(2) {
+    height: 95%;
+    width: 48%;
+    background-color: rgb(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 33px;
+    background-image: url('../image/index/new-models.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-banner {
+    height: 564px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin-bottom: 52px;
+}
+
+.img-banner .wrapper {
+    height: 100%;
+    width: 85%;
+    background-color: rgb(247, 247, 247);
+    border-radius: 40px;
+}
+
+.img-banner .wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 40px;
+    box-shadow: 3px 5px 5px rgb(197, 197, 197);
+}
+
+.gold-loan-offer {
+    height: 558px;
+    width: 100%;
+    /* background-color: lawngreen; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 52px;
+}
+
+.gold-loan-offer .wrapper {
+    height: 100%;
+    width: 85%;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-image: url('../image/index/gold-loan.png');
+    box-shadow: 3px 8px 12.9px gray;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gold-loan-offer .wrapper .heading {
+    height: 20%;
+    width: 40%;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gold-loan-offer .wrapper .heading h1 {
+    font-size: 64px;
+    color: rgb(4, 4, 64);
+    color: rgb(9, 63, 9);
+    font-weight: 500;
+}
+
+.gold-check {
+    height: 800px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    margin-bottom: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+.gold-check .wrapper {
+    height: 100%;
+    width: 85%;
+    /* background-color: aqua; */
+}
+
+.gold-check .wrapper h1 {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    color: rgb(4, 4, 64);
+    /* background-color: blueviolet; */
+}
+
+.gold-check .wrapper .gold-container {
+    height: 90%;
+    width: 100%;
+    /* background-color: rgb(198, 48, 48); */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.gold-check .wrapper .gold-container .img-container {
+    height: 90%;
+    width: 45%;
+    border-radius: 28px;
+    /* background-color: black; */
+}
+
+.gold-check .wrapper .gold-container .img-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+.gold-check .wrapper .gold-container .card-container {
+    height: 90%;
+    width: 50%;
+    /* background-color: cadetblue; */
+    border-radius: 28px;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gold-check .wrapper .gold-container .card-container .card {
+    height: 45%;
+    width: 45%;
+    background-color: rgb(234, 228, 205);
+    gap: 10px;
+    border-radius: 31px;
+}
+
+.gold-check .wrapper .gold-container .card-container .card img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 28px;
+}
+
+.gold-check .wrapper .gold-container .card-container .card h3 {
+    height: 10%;
+    width: 100%;
+    font-size: 32px;
+    color: rgb(4, 4, 64);
+    font-weight: 400;
+    text-align: center;
+    /* background-color: lightgreen; */
+}
+
+.last-container {
+    height: 776px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-bottom: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+.last-container .wrapper {
+    height: 100%;
+    width: 90%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.last-container .wrapper .left,
+.right {
+    height: 80%;
+    width: 50%;
+    /* background-color: lightskyblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-container .wrapper .left .text {
+    height: 80%;
+    width: 80%;
+    /* background-color: lightgreen; */
+}
+
+.last-container .wrapper .text {
+    height: 80%;
+    width: 80%;
+    border-radius: 30px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.last-container .wrapper .text h4 {
+    font-size: 48px;
+    text-align: center;
+    color: rgb(4, 4, 64);
+}
+
+.last-container .wrapper .text p {
+    font-size: 24px;
+    color: rgb(4, 4, 64);
+    text-align: center;
+}
+
+.last-container .wrapper .right {
+    height: 90%;
+    width: 50%;
+    /* background-color: rgb(255, 87, 87); */
+}
+
+.last-container .wrapper .right .img-box {
+    height: 100%;
+    width: 90%;
+    /* background-color: black; */
+}
+
+.last-container .wrapper .right .img-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 28px;
+    box-shadow: 3px 5px 5px rgb(197, 197, 197);
+}
+
+@media only screen and (max-width:1419px) {
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 59px;
+    }
+
+    .container-two {
+        height: 220px;
+    }
+
+    .container-four {
+        height: 352px;
+    }
+}
+
+@media only screen and (max-width:1344px){
+    footer .wrapper .footer-container .column:nth-child(1) .logo h1 {
+        font-size: 20px;
+    }
+    .gold-loan-offer .wrapper .heading h1 {
+        font-size: 51px;
+    }
+}
+
+@media only screen and (max-width:1319px) {
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 54px;
+    }
+
+    .container-two {
+        height: 207px;
+    }
+
+    .gold-loan-offer .wrapper .heading h1 {
+        font-size: 51px;
+    }
+
+    footer .wrapper .footer-container .column:nth-child(1) .logo h1 {
+        font-size: 22px;
+    }
+
+    footer .wrapper .footer-container .column h6 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:1248px) {
+    nav .wrapper ul {
+        gap: 25px;
+    }
+
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 50px;
+    }
+
+    .container .wrapper .right-banner .sub-container {
+        height: 80%;
+    }
+
+    .gold-loan-offer .wrapper .heading h1 {
+        font-size: 52px;
+    }
+
+    .container-two .wrapper {
+        width: 90%;
+    }
+
+    .container-two {
+        margin-bottom: 16px;
+    }
+
+    .container-two .wrapper .card {
+        height: 87%;
+    }
+
+    .container-two .wrapper .card img {
+        height: 36%;
+    }
+
+    .container-three .wrapper .card .card-sub-heading {
+        font-size: 19px;
+    }
+
+    .container-three .wrapper .card {
+        height: 76%;
+    }
+
+    .container-three .wrapper h1 {
+        height: 19%
+    }
+
+    .container-three {
+        margin-bottom: 16px;
+    }
+
+    .container-four {
+        margin-bottom: 36px;
+    }
+
+    .container-four .wrapper {
+        height: 100%;
+        width: 90%;
+    }
+
+    .container-two .wrapper .card p {
+        font-size: 20px;
+    }
+
+    footer .wrapper .footer-container .column:nth-child(1) .logo h1 {
+        font-size: 18px;
+    }
+
+    footer .wrapper .footer-container .column ul li {
+        font-size: 14px;
+    }
+
+    footer .wrapper .footer-container-two .text p {
+        font-size: 14px;
+    }
+
+    footer .wrapper .footer-container-two .text p a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:1183px){
+    footer .wrapper .footer-container .column h6 {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width:1112px){
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 46px;
+    }
+    .container-two .wrapper .card img {
+        height: 30%
+    }
+    .container-two .wrapper .card p {
+        font-size: 18px;
+    }
+    .container-three {
+        height: 305px;
+    }
+    .container-four {
+        height: 281px;
+    }
+    .img-banner {
+        height: 488px;
+    }
+    .gold-check {
+        height: 672px;
+    }
+    .gold-check .wrapper .gold-container {
+        height: 100%;
+    }
+    .gold-check {
+        margin-bottom: 0px;
+    }
+    footer .wrapper .footer-container .column h6 {
+        font-size: 17px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .para p {
+        font-size: 15px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .links {
+        gap: 10px;
+    }
+    nav .wrapper ul li a {
+        font-size: 16px;
+    }
+    .last-container .wrapper .text p {
+        font-size: 19px;
+    }
+    .last-container .wrapper .text h4 {
+        font-size: 40px;
+    }
+    .img-banner .wrapper{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1030px){
+    .container {
+        height: 508px;
+    }
+
+    .container .wrapper .right-banner {
+        width: 100%;
+    }
+
+    .container .wrapper .left-banner {
+        width: 45%;
+    }
+
+    .container .wrapper .right-banner {
+        width: 55%;
+    }
+
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 43px;
+    }
+
+    .container .wrapper .left-banner .sub-container .sub-para p {
+        font-size: 14px;
+    }
+
+    .container-two {
+        margin-bottom: 0px;
+    }
+
+    .container-two .wrapper .card img {
+        height: 29%;
+    }
+
+    .container-two .wrapper .card {
+        height: 75%;
+    }
+
+    .container-two .wrapper .card p {
+        font-size: 16px;
+    }
+
+    .container-three {
+        height: 300px;
+    }
+
+    .container-three .wrapper .card-container {
+        height: 85%;
+    }
+
+    .container-three .wrapper h1 {
+        font-size: 40px;
+        height: 12%;
+    }
+
+    .container-four .wrapper h1 {
+        font-size: 40px;
+    }
+
+    .container-four {
+        height: 299px;
+    }
+
+    .container-four .wrapper .card-container .card .heading h1 {
+        font-size: 25px;
+    }
+
+    .img-banner {
+        height: 490px;
+    }
+
+    .gold-loan-offer {
+        height: 489px;
+    }
+
+    .gold-loan-offer .wrapper .heading h1 {
+        font-size: 38px;
+    }
+
+    .gold-check .wrapper h1 {
+        font-size: 40px;
+    }
+
+    .gold-check {
+        height: 598px;
+    }
+
+    .gold-check .wrapper .gold-container .card-container .card h3 {
+        font-size: 22px;
+    }
+
+    .gold-check .wrapper .gold-container .card-container .card img {
+        border-radius: 20px;
+    }
+
+    .gold-check .wrapper .gold-container .card-container .card {
+        border-radius: 20px
+    }
+
+    .gold-check {
+        margin-bottom: 0px;
+    }
+
+    .last-container .wrapper .text h4 {
+        font-size: 40px;
+    }
+
+    .last-container .wrapper .text p {
+        font-size: 20px;
+    }
+
+    .last-container {
+        margin-bottom: 0px
+    }
+
+    footer .wrapper .footer-container .column:nth-child(1) .logo h1 {
+        font-size: 16px;
+    }
+
+    footer {
+        height: 364px;
+    }
+}
+
+@media only screen and (max-width:1029px){
+    .gold-loan-offer .wrapper {
+        width: 90%;
+    }
+    .gold-loan-offer .wrapper .heading h1 {
+        font-size: 32px;
+    }
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 38px;
+    }
+    .container .wrapper .left-banner .sub-container {
+        height: 56%;
+    }
+}
+
+@media only screen and (max-width:1120px) {
+    .container .wrapper .left-banner .sub-container {
+        height: 60%;
+    }
+
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 40px;
+    }
+
+    .container {
+        height: 567px;
+    }
+
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 44px;
+    }
+
+    .container .wrapper .left-banner .sub-container .sub-para p {
+        font-size: 16px;
+    }
+
+    .container .wrapper .left-banner .sub-container {
+        height: 65%;
+    }
+
+    .container .wrapper .right-banner {
+        width: 70%
+    }
+    .gold-loan-offer .wrapper .heading h1 {
+        font-size: 40px;
+    }
+
+    .last-container {
+        height: 683px;
+    }
+
+    .gold-check {
+        margin-bottom: 0px;
+    }
+
+    footer .wrapper .footer-container .column:nth-child(1) .logo h1 {
+        font-size: 19px;
+    }
+
+    footer .wrapper .footer-container .column:nth-child(1) .para p {
+        font-size: 17px;
+    }
+
+    footer .wrapper .footer-container .column:nth-child(1) .para {
+        height: 43%;
+    }
+
+    footer .wrapper .footer-container .column h6 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    footer .wrapper .footer-container .column ul li {
+        font-size: 14px;
+    }
+
+    footer .wrapper .footer-container-two {
+        height: 50px;
+    }
+
+    footer .wrapper .footer-container-two .text p {
+        font-size: 14px;
+    }
+
+    footer .wrapper .footer-container-two .text p a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:1008px){
+    nav .wrapper .logo a img {
+        height: 50px;
+        width: 50px;
+    }
+    nav .wrapper .logo h1 {
+        font-size: 18px;
+    }
+    .gold-check {
+        height: 623px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .logo a img {
+        height: 50px;
+        width: 50px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .logo h1 {
+        font-size: 14px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .logo {
+        justify-content: space-around;
+    }
+    footer .wrapper .footer-container .column ul li {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:941px){
+    .container .wrapper .right-banner .sub-container {
+        gap: 10px;
+    }
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 35px;
+    }
+    nav .wrapper .social-media-link {
+        gap: 10px;
+    }
+    button {
+        height: 30px;
+        width: 92px;
+    }
+    .container-two .wrapper .card p {
+        font-size: 15px;
+    }
+    .container-three {
+        height: 268px;
+    }
+    .container-three .wrapper .card .card-sub-heading {
+        font-size: 15px;
+    }
+    .img-banner {
+        height: 460px;
+    }
+    .gold-check {
+        height: 566px;
+        margin-bottom: 10px;
+    }
+    .last-container {
+        height: 509px;
+    }
+    footer .wrapper .footer-container {
+        height: 228px;
+    }
+    footer {
+        height: 326px;
+    }
+}
+
+@media only screen and (max-width:910px){
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 33px;
+    }
+    .container .wrapper .left-banner .sub-container {
+        height: 51%;
+    }
+    nav .wrapper ul li a {
+        font-size: 16px;
+    }
+
+    nav .wrapper ul {
+        gap: 16px
+    }
+
+    nav {
+        height: 50px;
+    }
+    nav .wrapper .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav .wrapper .logo a img {
+        height: 40px;
+        width: 40px;
+    }
+
+    nav .wrapper .logo h1 {
+        font-size: 20px;
+        font-weight: 400
+    }
+
+    nav .wrapper .social-media-link {
+        gap: 9px;
+    }
+
+    button {
+        height: 30px;
+        width: 98px;
+        font-size: 12px;
+    }
+
+    .container {
+        height: 475px;
+        margin-bottom: 25px;
+    }
+
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 36px;
+    }
+
+    .container .wrapper .left-banner .sub-container {
+        height: 59%;
+    }
+
+    .container-two {
+        height: 190px;
+        margin-bottom: 11px;
+    }
+
+    .container-two .wrapper .card {
+        height: 79%;
+    }
+
+    .container-three {
+        height: 239px;
+    }
+
+    .container-three .wrapper h1 {
+        font-size: 32px;
+    }
+
+    .container-four .wrapper h1 {
+        font-size: 32px;
+    }
+
+    .container-four .wrapper h1 {
+        height: 15%;
+    }
+
+    .container-four {
+        height: 255px;
+    }
+
+    .img-banner .wrapper {
+        width: 90%;
+    }
+
+    .img-banner {
+        height: 410px;
+    }
+
+    .gold-loan-offer {
+        height: 404px;
+    }
+
+    .gold-loan-offer .wrapper {
+        width: 90%;
+    }
+    .gold-loan-offer .wrapper {
+        height: 100%;
+        width: 90%;
+    }
+    .gold-check .wrapper h1 {
+        font-size: 32px;
+    }
+
+    .last-container {
+        height: 504px;
+    }
+
+    .last-container .wrapper .right {
+        width: 55%;
+    }
+
+    .last-container .wrapper .text h4 {
+        font-size: 34px;
+    }
+
+    .last-container .wrapper .text p {
+        font-size: 17px;
+    }
+
+    footer .wrapper .footer-container .column h6 {
+        font-size: 16px;
+    }
+
+    footer .wrapper .footer-container .column:nth-child(1) .logo h1 {
+        font-size: 13px;
+    }
+
+    footer .wrapper .footer-container .column ul li {
+        font-size: 12px;
+    }
+
+    footer .wrapper .footer-container .column:nth-child(1) .para p {
+        font-size: 13px
+    }
+
+    footer .wrapper .footer-container .column:nth-child(1) .para {
+        height: 36%;
+    }
+
+    footer .wrapper .footer-container .column:nth-child(1) .links {
+        gap: 10px
+    }
+}
+
+@media only screen and (max-width:892px){
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 32px;
+    }
+    footer {
+        height: 298px;
+    }
+    footer .wrapper .footer-container .column h6 {
+        font-size: 14px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .para p {
+        font-size: 11px;
+    }
+    footer .wrapper .footer-container .column ul li {
+        font-size: 10px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .links i {
+        font-size: 28px;
+    }
+    footer .wrapper .footer-container {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width:824px){
+    nav .wrapper .logo a img {
+        height: 35px;
+        width: 35px;
+    }
+    .container {
+        height: 500px;
+    }
+    .container .wrapper .left-banner .sub-container .sub-para p {
+        font-size: 16px;
+    }
+    .container-two .wrapper .card p {
+        font-size: 13px;
+    }
+    .container-four .wrapper .card-container .card .heading h1 {
+        font-size: 20px;
+    }
+    .gold-check .wrapper .gold-container .card-container .card h3 {
+        font-size: 16px;
+    }
+    .last-container .wrapper .text p {
+        font-size: 16px;
+    }
+    .last-container {
+        height: 460px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .logo h1 {
+        font-size: 16px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .logo a img {
+        height: 40px;
+        width: 40px;
+    }
+    footer .wrapper .footer-container-two .text p {
+        font-size: 12px;
+    }
+    footer .wrapper .footer-container .column {
+        height: 90%;
+        width: 26%;
+    }
+    footer .wrapper .footer-container-two .text p a {
+        font-size: 12px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .para {
+    height: 70%;
+    }
+}
+
+@media only screen and (max-width:804px){
+    nav .wrapper .social-media-link i {
+        font-size: 30px;
+    }
+    .gold-loan-offer .wrapper .heading h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:794px){
+    nav .wrapper .social-media-link button {
+        margin-left: 10px;
+    }
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 29px;
+    }
+    .gold-check {
+        height: 490px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .logo {
+        justify-content: center;
+    }
+    footer .wrapper .footer-container .column h6{
+        margin: 0px 0px 20px 50px;
+    }
+    footer .wrapper .footer-container-two .text p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:740px){
+    footer .wrapper .footer-container .column:nth-child(1) .logo h1 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    footer .wrapper .footer-container .column ul li {
+        font-size: 10px;
+        margin: 0px 0px 0px 12px;
+    }
+    footer .wrapper .footer-container .column h6 {
+        margin: 0px 0px 20px 9px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .logo h1 {
+        font-size: 16px;
+    }
+    
+@media only screen and (max-width:740px){
+    footer .wrapper .footer-container .column:nth-child(1) .logo h1 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    footer .wrapper .footer-container .column ul li {
+        font-size: 10px;
+        margin: 0px 0px 0px 12px;
+    }
+    footer .wrapper .footer-container .column h6 {
+        margin: 0px 0px 20px 9px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .logo h1 {
+        font-size: 16px;
+    }
+    footer .wrapper .footer-container-two .text {
+        height: 43%;
+        width: 100%;
+        text-align: center;
+    }
+}
+}
+
+@media only screen and (max-width:736px){
+    .container {
+        height: 400px;
+    }
+    .container-two {
+        height: 160px;
+    }
+    .gold-check .wrapper{
+        width: 90%;
+    }
+    .container-three {
+        height: 200px;
+    }
+    .container-three .wrapper .card .card-sub-heading {
+        font-size: 11px;
+    }
+    .container-four {
+        height: 198px;
+    }
+    .container-four .wrapper h1 {
+        height: 20%;
+    }
+    .img-banner {
+        height: 374px;
+    }
+    .gold-loan-offer {
+        height: 376px;
+    }
+    .last-container {
+        height: 426px;
+    }
+    .last-container .wrapper .text p {
+        font-size: 14px;
+    }
+    footer .wrapper .footer-container .column h6 {
+        margin: 0px 0px 18px 38px;
+    }
+    footer .wrapper .footer-container .column h6 {
+        font-size: 13px;
+    }
+    footer .wrapper .footer-container .column {
+        width: 22%;
+    }
+    footer .wrapper .footer-container-two {
+        height: 57px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:718px){
+    .container .wrapper .left-banner .sub-container h1 {
+        font-size: 25px;
+    }
+    nav {
+        height: 39px;
+    }
+    nav .wrapper .social-media-link i {
+        font-size: 26px
+    }
+    nav .wrapper ul li a {
+        font-size: 14px;
+    }
+    nav .wrapper .logo h1 {
+        font-size: 18px;
+    }
+    .container-two .wrapper .card p {
+        font-size: 11px;
+    }
+    .container-two .wrapper .card {
+        height: 70%;
+    }
+    .container .wrapper .left-banner .sub-container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:675px) {
+    footer .wrapper{
+        /* background-color: aqua; */
+        height: 80%;
+    }
+    footer .wrapper .footer-container-two{
+        /* background-color: yellowgreen; */
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    footer .wrapper .footer-container-two .text:nth-child(1){
+        /* background-color: red; */
+        width: 50%;
+    }
+    footer .wrapper .footer-container-two .text:nth-child(2){
+        /* background-color: blue; */
+        width: 50%;
+    }
+    footer .wrapper .footer-container-two .text:nth-child(3){
+        /* background-color: green; */
+        width: 100%;
+    }
+    footer .wrapper .footer-container-two .text:nth-child(3) p{
+        text-align: centers;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .img-banner {
+        height: 292px
+    }
+    .gold-loan-offer {
+        height: 292px;
+    }
+    .gold-loan-offer .wrapper .heading h1 {
+        font-size: 24px;
+    }
+    .gold-check {
+        height: 406px;
+    }
+    .last-container {
+        height: 361px;
+    }
+    footer {
+        height: 277px;
+    }
+    footer .wrapper .footer-container-two .text p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:623px){
+    .container {
+        height: 369px;
+    }
+    .container .wrapper .left-banner {
+        width: 52%;
+    }
+    nav .wrapper .social-media-link i{
+        gap: 9px;
+        display: none;
+    }
+    button {
+        width: 84px;
+        font-size: 10px;
+    }
+    .container-four .wrapper .card-container .card .heading h1 {
+        font-size: 16px;
+    }
+    footer .wrapper .footer-container {
+        height: 142px;
+    }
+    footer {
+        height: 242px;
+    }
+    footer .wrapper .footer-container {
+        height: 142px;
+        width: 100%;
+        /* background-color: rosybrown; */
+        /* width: 586px; */
+        gap: 5px;
+    }
+    footer .wrapper .footer-container .column {
+        height: 90%;
+        width: 25%;
+        /* background-color: yellow; */
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .links i{
+        font-size: 20px;
+    }
+    footer .wrapper .footer-container .column:nth-child(4) li {
+        line-height: 2;
+        margin: 0px 0px 0px 20px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) {
+        line-height: 1.7;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width:594px){
+    footer{
+        height: 310px;
+        /* background-color: lightcoral; */
+        position: relative;
+    }
+    footer .wrapper {
+        /* background-color: aqua; */
+        height: auto;
+        align-items: center;
+    }
+    footer .wrapper .footer-container {
+        height: auto;
+        width: 100%;
+        /* background-color: rosybrown; */
+        width: auto;
+        gap: 5px;
+        align-items: flex-start;
+        display: flex;
+    }
+    footer .wrapper .footer-container .column {
+        width: 40%;
+        height: auto;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) {
+        width: 40%;
+        height: 150px;
+        margin-bottom: 0px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) .para p {
+        font-size: 14px;
+    }
+    /* footer .wrapper .footer-container .column:nth-child(1){
+        width: 40%;
+    }
+    footer .wrapper .footer-container .column:nth-child(2){
+        width: 40%;
+    }
+    footer .wrapper .footer-container .column:nth-child(3){
+        width: 40%;
+    }
+    footer .wrapper .footer-container .column:nth-child(4){
+        width: 40%;
+    } */
+    footer .wrapper .footer-container .column ul li {
+        font-size: 12px;
+        margin: 0px 0px 0px 26px;
+    }
+    footer .wrapper .footer-container-two {
+        /* position: absolute;
+        top: 352px; */
+        width: 80%;
+    }
+    footer .wrapper .footer-container-two .text:nth-child(1){
+        /* background-color: red; */
+        width: 100%;
+    }
+    footer .wrapper .footer-container-two .text:nth-child(2){
+        /* background-color: blue; */
+        width: 100%;
+    }
+    footer .wrapper .footer-container-two .text:nth-child(3){
+        /* background-color: green; */
+        width: 100%;
+    }
+    footer .wrapper .footer-container .column h6 {
+        margin: 0px 0px 18px 21px;
+    }
+    footer .wrapper .footer-container-two .text p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:584px){
+    footer .wrapper .footer-container .column:nth-child(1) {
+        width: 71%;
+        height: 207px;
+        margin-bottom: 0px;
+        /* background-color: black; */
+    }
+}
+
+
+
+@media only screen and (max-width:529px){
+    .container {
+        height: 309px;
+        margin-bottom: 10px;
+    }
+    .container .wrapper .left-banner .sub-container .sub-para p {
+        font-size: 12px;
+        line-height: 1.3;
+    }
+    .container .wrapper .right-banner .sub-container {
+        gap: 10px;
+        height: 241px;
+    }
+    .container-two .wrapper {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 17px
+    }
+    .container-two {
+        height: 144px;
+        margin-bottom: 116px;
+    }
+    .container-two .wrapper {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 23px
+    }
+    .container-two .wrapper .card {
+        height: 111px;
+        width: 204px;
+    }
+    .container-two .wrapper {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 11px
+    }
+    .container-three {
+        height: auto;
+        margin-bottom: -2px;
+    }
+    .container-three .wrapper .card {
+        height: 76%;
+        width: 183px;
+        margin-bottom: 13px;
+    }
+    .container-three .wrapper .card-container {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px 0px;
+    }
+    .container-three .wrapper .card img {
+        object-fit: cover;
+        height: 110px;
+    }
+    .container-four {
+        margin-bottom: 10px;
+        height: 147px;
+    }
+    .container-four .wrapper h1 {
+        height: 25%;
+    }
+    .container-four .wrapper .card-container .card .heading {
+        height: 33px;
+        width: 146px;
+    }
+    .container-four .wrapper .card-container .card .heading h1 {
+        font-size: 15px;
+    }
+    .img-banner .wrapper img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        border-radius: 15px;
+        box-shadow: 3px 5px 5px rgb(197, 197, 197);
+    }
+    .gold-loan-offer {
+        height: 240px;
+    }
+    .gold-loan-offer .wrapper {
+        height: 100%;
+        width: 90%;
+        border-radius: 26px
+    }
+    .gold-check .wrapper .gold-container .card-container .card img {
+        height: 75%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 19px;
+    }
+    .gold-check {
+        height: 367px;
+    }
+    .img-banner {
+        height: 240px;
+    }
+    .last-container .wrapper .text p {
+        font-size: 12px;
+    }
+    .last-container {
+        height: 315px;
+    }
+    footer .wrapper .footer-container-two{
+        width: 90%;
+    }
+    footer .wrapper .footer-container .column:nth-child(4) {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:488px){
+    .container-two {
+        height: 144px;
+        margin-bottom: 128px;
+    }
+    .container-two .wrapper .card {
+        height: 111px;
+        width: 193px;
+    }
+    .container-three{
+        margin-bottom: 20px;
+    }
+    .container-four {
+        margin-bottom: 30px;
+        height: 147px;
+    }
+    .container-four .wrapper h1 {
+        height: 12%;
+    }
+    .container-four .wrapper .card-container .card .heading {
+        height: 49px;
+        width: 187px;
+    }
+    .container-four {
+        margin-bottom: 76px;
+        height: 352px;
+    }
+    .container-four .wrapper .card-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .container-four .wrapper .card-container .card:nth-child(1) {
+        height: 50%;
+        width: 100%;
+        border-radius: 11px;
+    }
+    .container-four .wrapper .card-container .card:nth-child(2) {
+        height: 50%;
+        width: 100%;
+        border-radius: 11px;
+    }
+    .img-banner {
+        height: 240px;
+        margin-bottom: 25px;
+    }
+    .gold-loan-offer .wrapper {
+        height: 100%;
+        width: 90%;
+        border-radius: 12px;
+    }
+    .gold-check .wrapper .gold-container {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gold-check .wrapper .gold-container .card-container .card {
+        border-radius: 10px;
+    }
+    .gold-loan-offer .wrapper .heading h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:464px){
+    nav .wrapper .logo a img {
+        height: 25px;
+        width: 25px;
+    }
+    nav .wrapper .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+    nav .wrapper .logo h1 {
+        font-size: 14px;
+    }
+    nav .wrapper ul {
+        gap: 6px;
+    }
+    nav .wrapper ul li a {
+        font-size: 12px;
+    }
+    .container-two .wrapper .card {
+        height: 111px;
+        width: 77%;
+    }
+    .container-two {
+        height: auto;
+        margin-bottom: 47px;
+    }
+    .container-three .wrapper .card {
+        height: 76%;
+        width: 305px;
+    }
+    .container-three {
+        height: auto;
+        margin-bottom: 38px;
+    }
+    .container-three .wrapper .card {
+        height: 163px;
+        width: 305px;
+        margin-bottom: 10px;
+    }
+    .container-three .wrapper .card img {
+        object-fit: container;
+        height: 95%;
+    }
+    .container-three .wrapper .card .card-sub-heading {
+        font-size: 16px;
+    }
+    .gold-loan-offer .wrapper .heading h1 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:412px){
+    nav .wrapper .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        order: 1;
+    }
+    nav .wrapper .social-media-link {
+        gap: 0px;
+        order: 3;
+    }
+    nav .wrapper{
+            height: auto;
+            justify-content: space-between;
+    }
+    nav .wrapper label{
+        /* height: auto;
+        width: 50px;
+        background-color: aqua; */
+        display: block;
+        color: white;
+        order: 2;
+    }
+    nav .wrapper ul li a {
+        font-size: 16px;
+        padding: 20px;
+        height: auto;
+    }
+    nav .wrapper .social-media-link button {
+        margin-left: 10px;
+        display: none;
+    }
+    .container {
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .container .wrapper {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        /* background-color: aquamarine; */
+    }
+    .container .wrapper .left-banner .sub-container {
+            width: 100%;
+            height: 140px;
+            justify-content: space-between;
+    }
+    .container .wrapper .left-banner {
+        width: 100%;
+        height: 211px;
+    }
+    .container .wrapper .right-banner {
+        width: 100%;
+        height: 175px;
+    }
+    .container .wrapper .right-banner {
+        width: 100%;
+        height: 256px;
+        /* background-color: blue; */
+    }
+    .container .wrapper .right-banner .sub-container {
+        gap: 10px;
+        height: 241px;
+        justify-content: center;
+    }
+    .container .wrapper .right-banner .sub-container .img-one {
+        height: 200px;
+        width: 149px;
+        background-color: blueviolet;
+        justify-self: start;
+        align-self: flex-end;
+        box-shadow: 10px 4px 10.3px gray;
+        border-radius: 111px 111px 30px 30px;
+    }
+    .container .wrapper .right-banner .sub-container .img-two {
+        height: 200px;
+        width: 149px;
+    }
+    .container-two .wrapper .card p {
+        font-size: 14px;
+    }
+    footer .wrapper .footer-container .column:nth-child(4) {
+        width: 50%;
+    }
+    nav .weapper .menu .check-box i{
+        display: block;
+    }
+    .container-four .wrapper .card-container .card .heading {
+        height: 59px;
+        width: 198px;
+    }
+    .container-four .wrapper .card-container .card .heading h1 {
+        font-size: 17px;
+    }
+    footer {
+        height: 539px;
+        /* background-color: lightcoral; */
+        position: relative;
+    }
+    footer .wrapper .footer-container {
+        height: 302px;
+        width: 403px;
+        margin-bottom: 25px;
+    }
+    footer .wrapper .footer-container {
+        height: auto;
+        width: 100%;
+        /* background-color: rosybrown; */
+        width: auto;
+        gap: 5px;
+        align-items: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .wrapper .footer-container .column ul li {
+        font-size: 12px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    footer .wrapper .footer-container .column h6 {
+        margin: 0px 0px 2px 21px;
+    }
+    footer .wrapper .footer-container .column{
+        margin-bottom: 5px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) {
+        width: 100%;
+        height: 145px;
+        margin-bottom: 0px;
+        /* background-color: black; */
+    }
+    footer .wrapper .footer-container .column:nth-child(2) {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }    
+    footer .wrapper .footer-container .column:nth-child(3) {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }    
+    footer .wrapper .footer-container .column:nth-child(4) {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:344px){
+    .container-two .wrapper .card {
+        height: 111px;
+        width: 100%;
+    }
+    .gold-check {
+        height: auto;
+    }
+    .gold-check .wrapper .gold-container .img-container {
+        CONTAIN-INTRINSIC-BLOCK-SIZE: AUTO 100PX;
+        height: 90%;
+        width: 100%;
+    }
+    .gold-check .wrapper .gold-container {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gold-check .wrapper .gold-container .card-container {
+        height: 90%;
+        width: 100%;
+        gap: 10px;
+    }
+    .gold-check .wrapper .gold-container .card-container .card {
+        border-radius: 20p
+    }
+    .gold-loan-offer {
+        height: 240px;
+        margin-bottom: 24px;
+    }
+    .gold-loan-offer .wrapper .heading {
+        height: 20%;
+        width: 55%;
+    }
+    .last-container {
+        height: auto;
+        margin-bottom: 10px;
+        /* background-color: aqua; */
+    }
+    .last-container .wrapper {
+        height: auto;
+        width: 90%;
+        /* background-color: aquamarine; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 5px;
+        /* background-color: blueviolet; */
+    }
+    .last-container .wrapper .left, .right {
+        height: auto;
+        width: 100%;
+    }
+    .last-container .wrapper .left .text{
+        height: auto;
+
+    }
+    .last-container .wrapper .text h4 {
+        font-size: 22px;
+    }
+    .last-container .wrapper .right {
+        width: 100%;
+        height: 290px;
+    }
+    footer{
+        height: 550px;
+    }
+    footer .wrapper{
+         height: auto;
+         /* background-color: aquamarine; */
+         display: flex;
+    }
+    footer .wrapper .footer-container {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    footer .wrapper .footer-container .column ul li {
+        font-size: 12px;
+        margin: 0px 0px 0px 26px;
+        text-align: center;
+    }
+    footer .wrapper .footer-container .column{
+        /* background-color: cadetblue; */
+        gap: 10px;
+    }
+    footer .wrapper .footer-container .column:nth-child(1) {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 0px;
+    }
+    footer .wrapper .footer-container .column:nth-child(2) {
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    footer .wrapper .footer-container .column:nth-child(3){
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    footer .wrapper .footer-container .column:nth-child(4) {
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    footer .wrapper .footer-container .column h6 {
+        margin: 0px 0px 0px 16px
+    }
+}
