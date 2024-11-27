@@ -132,8 +132,10 @@
     width: 100%;
     width: 90%;
 }
-.huid-container .wrapper .card:nth-child(2) ,:nth-child(4){
-    flex-direction: row-reverse;
+.huid-container .wrapper .card:nth-child(2) ,
+.huid-container .wrapper .card:nth-child(4){
+    /* flex-direction: row-reverse; */
+    background-color: red !important;
     text-align: right;
 }
 .huid-container .wrapper .card:nth-child(4){

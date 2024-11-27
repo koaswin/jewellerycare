@@ -828,28 +828,11 @@ footer .wrapper .footer-container-two .text p a{
         font-size: 14px;
     }
 }
-
-@media only screen and (max-width:412px){
-    nav .wrapper .logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: auto;
-        order: 1;
-    }
+@media only screen and (max-width:427px){
     nav .wrapper .social-media-link {
         display: none;
     }
-    nav .wrapper{
-        position: relative;
-        height: auto;
-        width: 90%;
-        justify-content: space-between;
-    }
     nav .wrapper label{
-        /* height: auto;
-        width: 50px;
-        background-color: aqua; */
         display: block;
         color: white;
         order: 2;
@@ -869,7 +852,44 @@ footer .wrapper .footer-container-two .text p a{
     #check-box:checked~ul{
         background-color: rgb(22, 62, 100);
         top: 30px;
-
+    }
+    .container {
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .container .wrapper {
+        height: 100%;
+        width: 90%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .container .wrapper .left-banner {
+        width: 100%;
+    }
+    .container .wrapper .left-banner .sub-container {
+        width: 100%;
+        height: 168px;
+        background-color: blueviolet;
+    }
+    .container .wrapper .right-banner {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:412px){
+    nav .wrapper .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        order: 1;
+    }
+    nav .wrapper{
+        position: relative;
+        height: auto;
+        width: 90%;
+        justify-content: space-between;
     }
     nav .wrapper ul li a {
         font-size: 16px;
