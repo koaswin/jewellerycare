@@ -89,30 +89,30 @@
     height: 386px;
     width: 80%;
     background-color: rgb(247, 228, 206);
-    border-radius: 41px;
+    border-radius: 59px;
     margin-bottom: 110px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    /* gap: 0px; */
+    justify-content: center;
+    gap: 60px;
 
 }
 .huid-container .wrapper .card .left{
     height: 92%;
     width: 30%;
     /* background-color: black; */
-    border-radius: 85px;
+    border-radius: 57px;
 
 }
 .huid-container .wrapper .card .left img{
     object-fit: cover;
     height: 100%;
     width: 100%;
-    border-radius: 85px;
+    border-radius: 55px;
 } 
-.huid-container .wrapper .card .right{
-    height: 80%;
-    width: 40%;
+.huid-container .wrapper .card .right {
+    height: 93%;
+    width: 43%;
     /* background-color: blue; */
     display: flex;
     align-items: center;
@@ -153,8 +153,7 @@
 .huid-container .wrapper .card:nth-child(4) .left img{
     border-radius: 5px;
 }
-
-
+/* media query */
 @media only screen and (max-width:1271px){
     .huid-container .wrapper .card {
         height: 386px;
@@ -241,6 +240,29 @@
         height: 1794px;
         width: 100%;
         /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:790px){
+    .huid-container .wrapper .card {
+        height: 386px;
+        width: 100%;
+        background-color: rgb(247, 228, 206);
+        border-radius: 29px;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* gap: 0px; */
+    }
+}
+@media only screen and (max-width:688px){
+    .banner {
+        height: 387px;
+        width: 100%;
+        margin-bottom: 28px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -400,7 +422,7 @@
     }
     .huid-container .wrapper .card:nth-child(1) .right p {
         text-align: justify;
-        height: 101px;
+        height: 107px;
         width: 90%;
     }
     .huid-container .wrapper .card .right {
@@ -421,6 +443,23 @@
     }
     .huid-container .wrapper .card:nth-child(4) .right p {
         text-align: center;
+    }
+}
+@media only screen and (max-width:425px){
+    .banner .wrapper {
+        height: 100%;
+        width: 98%;
+        background-color: rgb(0, 0, 0, 0.5);
+        background-image: url(../image/huid/banner-img.jpg);
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        border-radius: 13px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 @media only screen and (max-width:403px){

@@ -39,7 +39,8 @@
 }
 
 .banner .wrapper .button {
-
+    height: 45px;
+    width: 203px;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -218,6 +219,8 @@
 }
 
 .last-banner .wrapper .button {
+    height: 45px;
+    width: 203px;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -600,7 +603,6 @@
 }
 }
 @media only screen and (max-width:648px){
-
     .banner {
         height: 351px;
         width: 100%;
@@ -726,8 +728,102 @@
         /* background-color: antiquewhite; */
         border-radius: 41px;
     }
-
-}@media only screen and (max-width:452px){
+}
+@media only screen and (max-width:500px){
+    .banner .wrapper {
+        height: 95%;
+        width: 98%;
+        background-color: rgb(0, 0, 0, 0.5);
+        border-radius: 24px;
+        background-image: url(../image/about/banner-img.jpg);
+        background-size: cover;
+        background-position: right;
+        object-position: right;
+        background-blend-mode: overlay;
+        /* position: relative; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner .wrapper .text {
+        height: 50%;
+        width: 50%;
+        margin: 0px;
+        text-align: center;
+    }
+    .banner .wrapper .button {
+        /* position: absolute; */
+        top: 69%;
+        left: 28%;
+        /* background-color: aqua; */
+        padding: 5px 10px;
+        display: block;
+    }
+    .banner .wrapper .button {
+        height: 45px;
+        /* position: absolute; */
+        top: 69%;
+        left: 28%;
+        /* background-color: aqua; */
+        padding: 5px 10px;
+        display: block;
+        width: 203px;
+    }
+    .last-banner .wrapper {
+        height: 95%;
+        width: 98%;
+        background-color: rgb(0, 0, 0, 0.5);
+        border-radius: 24px;
+        background-image: url(../image/about/banner-img.jpg);
+        background-size: cover;
+        object-position: right;
+        background-position: right;
+        background-blend-mode: overlay;
+        /* position: relative; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .last-banner .wrapper .text {
+        height: 50%;
+        width: 57%;
+        /* background-color: lightpink; */
+        margin: 0px;
+    }
+    .last-banner .wrapper .text h1 {
+        font-size: 36px;
+        color: white;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .last-banner .wrapper .button {
+        height: 45px;
+        width: 203px;
+        /* position: absolute; */
+        top: 75%;
+        left: 27%;
+        /* background-color: aqua; */
+    }
+}
+@media only screen and (max-width:477px){
+        .banner .wrapper .button {
+        height: 45px;
+        /* position: absolute; */
+        top: 69%;
+        left: 22%;
+        /* background-color: aqua; */
+        padding: 5px 10px;
+        display: block;
+        width: 203px;
+    }
+    .last-banner .wrapper .text {
+        height: 50%;
+        width: 70%;
+        /* background-color: lightpink; */
+        margin: 0px;
+    }
+}
+@media only screen and (max-width:452px){
     .container {
         height: 1047px;
         width: 100%;
@@ -757,24 +853,6 @@
         background-color: rgb(181, 0, 0);
     }
 }
-@media only screen and (max-width:449px){
-    .banner {
-        height: 281px;
-        width: 100%;
-        /* background-color: lightcoral; */
-        margin-bottom: 42px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .banner .wrapper .button {
-        position: absolute;
-        top: 64%;
-        left: 6%;
-        /* background-color: aqua; */
-        padding: 5px 10px;
-    }
-}
 @media only screen and (max-width:400px){
     .banner .wrapper .button {
 
@@ -784,32 +862,11 @@
         /* background-color: aqua; */
         padding: 5px 10px;
     }
-    .last-banner {
-        height: 320px;
-        width: 100%;
-        /* background-color: lightcoral; */
-        margin-bottom: 42px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     .last-banner .wrapper .text {
         height: 50%;
-        width: 60%;
-        margin-left: 10%;
-        margin-top: 10%;
-        /* background-color: lightpink;*/
-    }
-        .last-banner .wrapper .button {
-    position: absolute;
-    top: 75%;
-    left: 5%;
-    /* background-color: aqua; */
-    }
-    .last-banner .wrapper .text h1 {
-        font-size: 30px;
-        color: white;
-        font-weight: 400;
+        width: 78%;
+        /* background-color: lightpink; */
+        margin: 0px;
     }
     .help-container .wrapper .sub-container .card p {
         height: 50%;
@@ -821,6 +878,20 @@
         color: white;
     }
 }
+
+
+@media only screen and (max-width:367px){
+    .container .wrapper .right {
+        height: 100%;
+        width: 100%;
+        /* background-color: lightyellow; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 41px;
+    }
+}
+
 @media only screen and (max-width:320px){
     .banner {
         height: 320px;
@@ -849,5 +920,14 @@
         width: 100%;
         border-radius: 20px;
         background-color: rgb(181, 0, 0);
+    }
+    .container .wrapper .right {
+        height: 100%;
+        width: 100%;
+        /* background-color: lightyellow; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 90px;
     }
 }
