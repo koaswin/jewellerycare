@@ -752,16 +752,8 @@
         text-align: center;
     }
     .banner .wrapper .button {
-        /* position: absolute; */
-        top: 69%;
-        left: 28%;
-        /* background-color: aqua; */
-        padding: 5px 10px;
-        display: block;
-    }
-    .banner .wrapper .button {
         height: 45px;
-        /* position: absolute; */
+        position: absolute;
         top: 69%;
         left: 28%;
         /* background-color: aqua; */

@@ -857,10 +857,10 @@ footer .wrapper .footer-container-two .text p a{
         align-items: start;
         transition-duration: 0.7s;
         padding: 5PX ;
-        background-color: rgba(22, 62, 100, 0);
+        /* background-color: rgba(22, 62, 100, 0); */
     }
     #check-box:checked~ul{
-        background-color: rgb(22, 62, 100,0.9);
+        background-color: rgb(22, 62, 100);
         top: 55px;
     }
     footer .wrapper .footer-container .column:nth-child(1) .logo {
@@ -971,7 +971,7 @@ footer .wrapper .footer-container-two .text p a{
     }
 }
 @media only screen and (max-width:367px){
-    
+
     footer .wrapper .footer-container .column:nth-child(1) .para p {
         font-size: 12px;
         color: white;
