@@ -93,8 +93,8 @@
     margin-bottom: 110px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 60px;
+    justify-content: space-evenly;
+    /* gap: 60px; */
 
 }
 .huid-container .wrapper .card .left{
@@ -291,11 +291,11 @@
         align-items: center;
         justify-content: space-evenly;
     }
-    .huid-container .wrapper .card .left img {
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-        border-radius: 26px;
+    .huid-container .wrapper .card .right img {
+        object-fit: contain;
+        border-radius: 13px;
+        height: 88%;
+        width: 90%;
     }
     .huid-container .wrapper .card .right {
         height: 100%;
@@ -436,6 +436,15 @@
     .huid-container .wrapper .card .right p {
         font-size: 14px;
         color: rgb(0, 0, 71);
+    }.huid-container .wrapper .card:nth-child(3) .right{
+        height: 350px;
+    }
+    .huid-container .wrapper .card:nth-child(3) .right img {
+        object-fit: contain;
+        border-radius: 13px;
+        height: 329px;
+        width: 100%;
+        width: 292px;
     }
     .huid-container .wrapper .card:nth-child(4) {
         background-color: white;
@@ -444,6 +453,7 @@
     .huid-container .wrapper .card:nth-child(4) .right p {
         text-align: center;
     }
+        
 }
 @media only screen and (max-width:425px){
     .banner .wrapper {
