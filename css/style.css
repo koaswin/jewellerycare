@@ -23,7 +23,6 @@ button {
     /* height: 36px; */
     width: 107px;
     /* width: auto; */
-    font-size: 12px;
     padding: 10px 25px;
     background-color: red;
     color: white;
@@ -31,6 +30,9 @@ button {
     border-radius: 24px;
     padding: 8px 10px;
     cursor: pointer;
+}
+button a{
+    font-size: 12px;
 }
 
 nav {
@@ -117,7 +119,7 @@ nav .wrapper .social-media-link i{
 }
 nav .wrapper .social-media-link a {
     color: white;
-    font-size: 32px;
+    font-size: 24px;
     gap: 17px;
     text-decoration: none;
     /* background-color: antiquewhite; */
@@ -129,6 +131,16 @@ nav .wrapper .social-media-link a {
 
 nav .wrapper .social-media-link button {
     margin-left: 20px;
+    text-align: center;
+    font-size: 12px;
+    height: 51px;
+    width: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .wrapper .social-media-link button a{
+    font-size: 20px;
     text-align: center;
 }
 
