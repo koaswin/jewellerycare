@@ -908,10 +908,11 @@
     }
     .container-three .wrapper h1 {
         font-size: 32px;
-        height: 16px;
+        height: 20px;
     }
     .container-four .wrapper h1 {
-        height: 46px;
+        height: 20%;
+        font-size: 32px;
     }
     .container-four {
         height: 255px;
@@ -984,6 +985,19 @@
 @media only screen and (max-width:794px){
     nav .wrapper .social-media-link button {
         margin-left: 10px;
+    }
+    nav .wrapper .social-media-link button {
+        margin-left: 20px;
+        text-align: center;
+        height: 38px;
+        width: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav .wrapper .social-media-link button a {
+        font-size: 16px;
+        text-align: center;
     }
     .container .wrapper .left-banner .sub-container h1 {
         font-size: 29px;
@@ -1129,6 +1143,10 @@
         height: 111px;
         width: 204px;
     }
+    .container-two .wrapper .card:hover{
+        height: 111px;
+        width: 215px;
+    }
     .container-two .wrapper {
         width: 90%;
         display: flex;
@@ -1137,7 +1155,8 @@
     }
     .container-three {
         height: auto;
-        margin-bottom: -2px;
+        margin-bottom: 10px;
+        /* background-color: aquamarine; */
     }
     .container-three .wrapper h1 {
         font-size: 32px;
@@ -1147,6 +1166,10 @@
         height: 76%;
         width: 183px;
         margin-bottom: 13px;
+        /* background-color: blueviolet; */
+    }
+    .container-three .wrapper .card:hover{
+        width: 200px;
     }
     .container-three .wrapper .card-container {
         height: 100%;
@@ -1159,8 +1182,9 @@
         object-fit: cover;
         height: 110px;
     }
+
     .container-four {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         height: 147px;
     }
     .container-four .wrapper h1 {
@@ -1171,14 +1195,19 @@
         width: 146px;
     }
     .container-four .wrapper .card-container .card .heading h1 {
+       
         font-size: 15px;
+    }
+    .img-banner .wrapper{
+        border-radius: 20px;
     }
     .img-banner .wrapper img {
         height: 100%;
         width: 100%;
         object-fit: contain;
-        border-radius: 15px;
+        /* border-radius: 15px; */
         box-shadow: 3px 5px 5px rgb(197, 197, 197);
+        border-radius: 20px
     }
     .gold-loan-offer {
         height: 240px;
@@ -1186,7 +1215,7 @@
     .gold-loan-offer .wrapper {
         height: 100%;
         width: 90%;
-        border-radius: 26px
+        border-radius: 20px
     }
     .gold-check .wrapper .gold-container .card-container .card img {
         height: 75%;
@@ -1281,9 +1310,12 @@
         height: auto;
         margin-bottom: 47px;
     }
+    .container-three .wrapper{
+        align-items: center;
+    }
     .container-three .wrapper .card {
         height: 216px;
-        width: 82%;
+        width: 100%;
         margin-bottom: 10px;
     }
     .container-three {
