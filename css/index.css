@@ -1436,6 +1436,19 @@
     .container-four .wrapper .card-container .card .heading h1 {
         font-size: 17px;
     }
+    .last-container .wrapper .left, .last-container .wrapper .right {
+        height: 290px;
+        width: 50%;
+        /* background-color: lightskyblue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .last-container .wrapper .right .img-box {
+        height: 84%;
+        width: 90%;
+        /* background-color: black; */
+    }
 }
 @media only screen and (max-width:344px){
     .container-two .wrapper .card {
