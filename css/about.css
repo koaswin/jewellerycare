@@ -24,7 +24,7 @@
     height: 50%;
     width: 40%;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 15%;
     /* background-color: lightpink; */
 }
 
@@ -43,8 +43,8 @@
     height: 45px;
     width: 203px;
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top: 60%;
+    left: 45%;
     /* background-color: aqua; */
     padding: 5px 10px;
 }
@@ -90,13 +90,20 @@
     align-self: flex-start;
     flex-direction: column;
     justify-content: space-between;
+    transition-duration: 0.5s;
 }
-
 .container .wrapper .left .container-one img {
     height: 48%;
     width: 100%;
     border-radius: 20px;
     background-color: rgb(160, 0, 0);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.container .wrapper .left .container-one img:hover{
+    height: 50%;
+    width: 105%;
+    box-shadow: 2px 5px 5px rgb(143, 143, 143);
 }
 
 .container .wrapper .left .container-two {
@@ -114,14 +121,20 @@
     width: 100%;
     border-radius: 20px;
     background-color: rgb(181, 0, 0);
+    cursor: pointer;
+    transition-duration: 0.5s;
 }
-
-.container .wrapper .left .container-one,
+.container .wrapper .left .container-two img:hover{
+    height: 50%;
+    width: 105%;
+    box-shadow: 2px 5px 5px rgb(143, 143, 143);
+}
+/* .container .wrapper .left .container-one,
 .container-two img {
     object-fit: cover;
     border-radius: 41px;
 
-}
+} */
 
 .container .wrapper .right {
     height: 100%;
@@ -129,7 +142,7 @@
     /* background-color: lightyellow; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .container .wrapper .right .text-container {
@@ -143,11 +156,13 @@
     justify-content: center;
 }
 
-.container .wrapper .right .text-container .container-one {
+.container .container-one {
     height: 45%;
     width: 90%;
     /* background-color: antiquewhite; */
-    border-radius: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .container .wrapper .right .text-container .container-one h3 {
@@ -165,7 +180,10 @@
     height: 45%;
     width: 90%;
     /* background-color: antiquewhite; */
-    border-radius: 41px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .container .wrapper .right .text-container .container-two h3 {
@@ -279,14 +297,31 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.help-container .wrapper .sub-container .card p {
+    height: 50%;
+    width: 100%;
+    /* text-align: center; */
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.help-container .wrapper .sub-container .card:hover{
+    height: 99%;
+    width: 38%;
+    box-shadow: 2px 5px 8px rgb(135, 135, 135);
 }
 .help-container .wrapper .sub-container .card .heading {
     /* background-color: red; */
     height: 30%;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: self-end;
     justify-content: center;
     gap: 30px;
 }
@@ -358,6 +393,22 @@
     }
 }
 
+@media only screen and (max-width:1177px){
+    .help-container .wrapper .sub-container .card h2 {
+        font-size: 26px;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .help-container .wrapper .sub-container .card p {
+        height: 50%;
+        width: 90%;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    }
+}
+
 @media only screen and (max-width:1090px){
     .banner .wrapper .text h1 {
         font-size: 36px;
@@ -392,7 +443,7 @@
     }
     .container .wrapper .left .container-one {
         height: auto;
-        width: 45%;
+        width: 47%;
         /* background-color: black; */
         display: flex;
         align-self: flex-start;
@@ -402,7 +453,7 @@
     }
     .container .wrapper .left .container-two {
         height: auto;
-        width: 45%;
+        width: 47%;
         /* background-color: rgb(255, 0, 0); */
         display: flex;
         align-self: flex-end;
@@ -416,11 +467,19 @@
         border-radius: 20px;
         background-color: rgb(160, 0, 0);
     }
+    .container .wrapper .left .container-one img:hover{
+        height: 215px;
+        width: 105%;
+    }
     .container .wrapper .left .container-two img {
         height: 214px;
         width: 100%;
         border-radius: 20px;
         background-color: rgb(181, 0, 0);
+    }
+    .container .wrapper .left .container-two img:hover{
+        height: 215px;
+        width: 105%;
     }
     .container .wrapper .right .text-container {
         height: auto;
@@ -465,6 +524,10 @@
         align-items: center;
         justify-content: space-around;
     }
+    .help-container .wrapper .sub-container .card:hover{
+        height: 220px;
+        width: 420px;
+    }
     .last-banner .wrapper .text h1 {
         font-size: 36px;
         color: white;
@@ -487,7 +550,7 @@
         justify-content: center;
     }
     .help-container .wrapper .sub-container .card {
-        height: 197px;
+        height: 170px;
         width: 100%;
         /* background-color: red; */
         border-radius: 38px;
@@ -495,6 +558,10 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+    }
+    .help-container .wrapper .sub-container .card:hover{
+        height: 200px;
+        width: 110%;
     }
     .help-container .wrapper .sub-container .card p {
         height: 50%;
@@ -513,6 +580,61 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+}
+@media only screen and (max-width:872px){
+    .container .container-one {
+        height: 295px;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .container .wrapper .right .text-container .container-one h3  {
+        font-size: 34px;
+        color: rgb(0, 0, 71);
+    }
+    .container .wrapper .right .text-container .container-one p {
+        font-size: 16px;
+        text-align: justify;
+        color: rgb(0, 0, 71);
+    }
+    .container .wrapper .right .text-container .container-two {
+        height: 295px;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .container .wrapper .left {
+        height: 573px;
+        width: 45%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: space-between;
+    }
+    .container .wrapper .left .container-one img {
+        height: 208px;
+        width: 100%;
+        border-radius: 14px;
+        background-color: rgb(181, 0, 0);
+    }
+    .container .wrapper .left .container-two img {
+        height: 208px;
+        width: 100%;
+        border-radius: 14px;
+        background-color: rgb(181, 0, 0);
+    }
+    .container .wrapper .right {
+        height: 100%;
+        width: 60%;
+        /* background-color: lightyellow; */
+        display: flex
+    ;
+        align-items: center;
+        justify-content: space-around;
     }
 }
 @media only screen and (max-width:777px){
@@ -808,6 +930,34 @@
         padding: 5px 10px;
         display: block;
         width: 203px;
+    }
+    .container .wrapper {
+        height: auto;
+        /* background-color: aqua; */
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .container .wrapper .left .container-one {
+        height: auto;
+        width: 48%;
+    }
+    .container .wrapper .left .container-two {
+        height: auto;
+        width: 48%;
+    }
+    .container .wrapper .left .container-one img {
+        height: 238px;
+        width: 100%;
+        border-radius: 20px;
+        background-color: rgb(160, 0, 0);
+    }
+    .container .wrapper .left .container-two img {
+        height: 238px;
+        width: 100%;
+        border-radius: 20px;
+        background-color: rgb(160, 0, 0);
     }
     .last-banner .wrapper .text {
         height: 50%;

@@ -140,8 +140,11 @@
     align-items: center;
     justify-content: space-evenly;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 .container-two .wrapper .card:hover{
+    height: 100%;
+    width: 28%;
     box-shadow: 3px 5px 5px rgb(197, 197, 197);
 }
 
@@ -198,6 +201,11 @@
     margin-right: 10px;
     border-radius: 24px;
     /* background-color: brown; */
+    transition-duration: 0.5s;
+}
+.container-three .wrapper .card:hover{
+    height: 85%;
+    width: 26%;
 }
 
 .container-three .wrapper .card img {
@@ -271,6 +279,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 .container-four .wrapper .card-container .card:hover{
     height: 97%;
@@ -309,6 +318,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 .container-four .wrapper .card-container .card:hover{
     height: 97%;
@@ -331,6 +341,7 @@
     background-color: rgb(247, 247, 247);
     border-radius: 40px;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 .img-banner .wrapper:hover{
     height: 100%;
@@ -369,6 +380,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 0.5s;
 }
 .gold-loan-offer .wrapper:hover{
     height: 100%;
