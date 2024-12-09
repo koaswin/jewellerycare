@@ -549,9 +549,21 @@
         align-items: center;
         justify-content: center;
     }
+    .container .wrapper .right .text-container .container-one h3 {
+        font-size: 36px;
+        color: rgb(0, 0, 71);
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+    .container .wrapper .right .text-container .container-two h3 {
+        font-size: 36px;
+        color: rgb(0, 0, 71);
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
     .help-container .wrapper .sub-container .card {
         height: 170px;
-        width: 100%;
+        width: 80%;
         /* background-color: red; */
         border-radius: 38px;
         display: flex;
@@ -565,7 +577,7 @@
     }
     .help-container .wrapper .sub-container .card p {
         height: 50%;
-        width: 78%;
+        width: 90%;
         display: flex;
         align-items: center;
         text-align: center;
@@ -637,6 +649,17 @@
         justify-content: space-around;
     }
 }
+@media only screen and (max-width:850px){
+.container {
+    height: auto;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 51px;
+}
+}
 @media only screen and (max-width:777px){
 .container .wrapper .left {
     height: 600px;
@@ -682,6 +705,33 @@
         display: flex;
         justify-content: space-between;
     }
+    .container .wrapper .right .text-container {
+        height: auto;
+        width: 80%;
+        gap: 10px;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 36px;
+    }
+    .container .wrapper .right .text-container .container-two {
+        height: 200px;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .container .container-one {
+        height: 247px;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
     .container .wrapper .right .text-container .container-one h3 {
         font-size: 24px;
         color: rgb(0, 0, 71);
@@ -702,7 +752,7 @@
     }
     .help-container .wrapper .sub-container .card {
         height: 153px;
-        width: 100%;
+        width: 80%;
         /* background-color: red; */
         border-radius: 38px;
         display: flex;
@@ -1005,10 +1055,31 @@
         border-radius: 20px;
         background-color: rgb(181, 0, 0);
     }
+    .help-container .wrapper .sub-container .card{
+        width: 90%;
+    }
+    .help-container .wrapper .sub-container .card p {
+        height: 50%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+    }
+    .container .wrapper .right .text-container .container-one p {
+        font-size: 14px;
+        text-align: justify;
+        color: rgb(0, 0, 71);
+    }
+    .container .wrapper .right .text-container .container-two p {
+        font-size: 14px;
+        text-align: justify;
+        color: rgb(0, 0, 71);
+    }
 }
 @media only screen and (max-width:400px){
     .banner .wrapper .button {
-
         position: absolute;
         top: 63%;
         left: 5%;
@@ -1023,17 +1094,29 @@
     }
     .help-container .wrapper .sub-container .card p {
         height: 50%;
-        width: 78%;
+        width: 90%;
         display: flex;
         align-items: center;
         text-align: center;
         font-size: 15px;
         color: white;
     }
+    .help-container .wrapper .sub-container .card{
+        border-radius: 20px;
+    }
 }
 
 
 @media only screen and (max-width:367px){
+    .container {
+        height: auto;
+        width: 100%;
+        /* background-color: lightcoral; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
     .container .wrapper .right {
         height: 100%;
         width: 100%;
@@ -1061,6 +1144,15 @@
         left: 5%;
         /* background-color: aqua; */
         padding: 5px 10px;
+    }
+    .container {
+        height: 952px;
+        width: 100%;
+        /* background-color: lightcoral; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -63px;
     }
     .container .wrapper .left {
         height: 470px;

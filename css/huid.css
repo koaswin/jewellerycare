@@ -1,7 +1,7 @@
 .banner{
-    height: 653px;
+    height: 636px;
     width: 100%;
-    margin-bottom: 8px;
+    margin-bottom: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,6 +156,35 @@
 }
 /* media query */
 @media only screen and (max-width:1271px){
+    .banner {
+        height: 547px;
+    }
+    .text-container {
+        height: 181px;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-container .wrapper p {
+        height: 80%;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(0, 0, 72);
+    }
+    .text-container .wrapper h2 {
+        height: 35%;
+        width: 100%;
+        font-size: 36px;
+        /* background-color: lightcoral; */
+        text-align: center;
+        color: rgb(0, 0, 72);
+    }
+    .huid-container {
+        height: 1640px;
+    }
     .huid-container .wrapper .card {
         height: 386px;
         width: 80%;
@@ -207,7 +236,7 @@
     .banner {
         height: 476px;
         width: 100%;
-        margin-bottom: 8px;
+        margin-bottom: 22px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -219,7 +248,7 @@
     }
     .banner .text p {
         color: white;
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 400;
     }
     .text-container {
@@ -233,7 +262,7 @@
     .text-container .wrapper p {
         height: 80%;
         width: 100%;
-        font-size: 22px;
+        font-size: 16px;
         text-align: center;
         color: rgb(0, 0, 72);
     }
@@ -245,18 +274,42 @@
         align-items: center;
         justify-content: center;
     }
+    .huid-container .wrapper .card .right p {
+        font-size: 16px;
+        color: rgb(0, 0, 71);
+    }
 }
 @media only screen and (max-width:790px){
+    .huid-container {
+        height: 1500px;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .huid-container .wrapper .card {
-        height: 386px;
+        height: 321px;
         width: 100%;
         background-color: rgb(247, 228, 206);
         border-radius: 29px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         /* gap: 0px; */
+    }
+    .huid-container .wrapper .card .left {
+        height: 67%;
+        width: 35%;
+        background-color: black;
+        border-radius: 23px;
+    }
+    .huid-container .wrapper .card .left img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: 19px;
     }
 }
 @media only screen and (max-width:688px){
@@ -270,6 +323,12 @@
     }
 }
 @media only screen and (max-width:608px){
+    .huid-container .wrapper .card .left {
+        height: 83%;
+        width: 35%;
+        background-color: black;
+        border-radius: 23px;
+    }
     .huid-container .wrapper .card .right p {
         font-size: 16px;
         color: rgb(0, 0, 71);
@@ -373,6 +432,7 @@
         margin-bottom: 19px;
         display: flex;
         flex-wrap: wrap;
+        gap: 15px;
         align-items: center;
         justify-content: space-evenly;
     }
@@ -486,12 +546,26 @@
         text-align: justify;
 }
 }
+@media only screen and (max-width:385px){
+    .huid-container .wrapper .card:nth-child(1) .right p {
+        text-align: justify;
+        height: 142px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width:340px){
+    .huid-container .wrapper .card:nth-child(1) .right p {
+        text-align: justify;
+        height: 152px;
+        width: 90%;
+    }
+}
 @media only screen and (max-width:333px){
     .huid-container .wrapper .card:nth-child(1) .right p {
         text-align: justify;
         height: 168px;
         width: 90%;
-    }%
+    }
 }
 @media only screen and (max-width:320px){
     .huid-container {

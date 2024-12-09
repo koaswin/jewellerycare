@@ -43,7 +43,7 @@
 }
 
 .container .wrapper .left-banner .sub-container .sub-para {
-    height: 40%;
+    height: 33%;
     width: 100%;
     /* background-color: lightcoral; */
     display: flex;
@@ -54,7 +54,7 @@
 .container .wrapper .left-banner .sub-container .sub-para p {
     font-size: 24px;
     color: rgb(1, 1, 70);
-    line-height: 1;
+    line-height: 1.3;
 }
 
 .container .wrapper .right-banner {
@@ -1020,7 +1020,7 @@
         height: 200px;
     }
     .container-three .wrapper .card .card-sub-heading {
-        font-size: 11px;
+        font-size: 14px;
     }
     .container-four {
         height: 198px;
@@ -1045,11 +1045,15 @@
     .container .wrapper .left-banner .sub-container h1 {
         font-size: 25px;
     }
+    .container-two {
+        height: 190px;
+        margin-bottom: 16px;
+    }
     .container-two .wrapper .card p {
-        font-size: 11px;
+        font-size: 14px;
     }
     .container-two .wrapper .card {
-        height: 70%;
+        height: 100%;
     }
     .container .wrapper .left-banner .sub-container{
         width: 100%;
@@ -1110,14 +1114,30 @@
         font-size: 16px;
     }
 }
+@media only screen and (max-width:598px){
+.container-three {
+    height: auto;
+}
+.container-three .wrapper h1 {
+    font-size: 32px;
+    height: 20%;
+}
+.container-three .wrapper .card-container {
+    flex-wrap: wrap;
+    height: auto;
+}
+.container-three .wrapper .card-container .card{
+    width: 30%;
+}
+}
 @media only screen and (max-width:529px){
     .container {
         height: 309px;
         margin-bottom: 10px;
     }
     .container .wrapper .left-banner .sub-container .sub-para p {
-        font-size: 12px;
-        line-height: 1.3;
+        font-size: 14px;
+        line-height: 1.1;
     }
     .container .wrapper .right-banner .sub-container {
         gap: 10px;
@@ -1177,6 +1197,9 @@
         flex-wrap: wrap;
         justify-content: space-around;
         gap: 10px 0px;
+    }
+    .container-three .wrapper .card-container .card {
+        width: 45%;
     }
     .container-three .wrapper .card img {
         object-fit: cover;
@@ -1322,6 +1345,10 @@
         height: auto;
         margin-bottom: 38px;
     }
+    .container-three .wrapper .card-container .card {
+        width: 100%;
+        margin-bottom: 26px;
+    }
     .container-three .wrapper .card img {
         object-fit: container;
         height: 95%;
@@ -1345,6 +1372,14 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .container .wrapper .left-banner .sub-container .sub-para {
+        height: 44%;
+        width: 100%;
+        /* background-color: lightcoral; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     .container .wrapper .left-banner {
         width: 100%;
@@ -1450,6 +1485,13 @@
         /* background-color: black; */
     }
 }
+
+@media only screen and (max-width:322px){
+.container .wrapper .left-banner .sub-container h1 {
+    font-size: 29px;
+}
+}
+
 @media only screen and (max-width:344px){
     .container-two .wrapper .card {
         height: 111px;
