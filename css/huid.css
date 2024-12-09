@@ -55,7 +55,7 @@
     /* background-color: green; */
 }
 .text-container .wrapper h2{
-    height: 20%;
+    height: 26%;
     width: 100%;
     font-size: 36px;
     /* background-color: lightcoral; */
@@ -65,7 +65,7 @@
 .text-container .wrapper p{
     height: 80%;
     width: 100%;
-    font-size: 32px;
+    font-size: 26px;
     text-align: center;
     color:rgb(0, 0, 72);
 }
