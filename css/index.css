@@ -140,6 +140,7 @@
     align-items: center;
     justify-content: space-evenly;
     cursor: pointer;
+    text-decoration: none;
     transition-duration: 0.5s;
 }
 .container-two .wrapper .card:hover{
@@ -200,6 +201,8 @@
     width: 24%;
     margin-right: 10px;
     border-radius: 24px;
+    text-decoration: none;
+    color: darkblue ;
     /* background-color: brown; */
     transition-duration: 0.5s;
 }
@@ -396,6 +399,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .gold-loan-offer .wrapper .heading h1 {
