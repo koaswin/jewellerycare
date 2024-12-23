@@ -524,6 +524,7 @@ footer .wrapper .footer-container-two .text p a{
     footer .wrapper {
         height: auto;
         margin: 12px 0px 12px 0px;
+        padding: 10px;
     }
     footer .wrapper .footer-container .column {
         height: 220px;
